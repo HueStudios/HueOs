@@ -2,12 +2,12 @@
 
 set -e -u
 
-iso_name=archlinux
-iso_label="ARCH_$(date +%Y%m)"
-iso_publisher="Arch Linux <http://www.archlinux.org>"
-iso_application="Arch Linux Live/Rescue CD"
+iso_name=hueos
+iso_label="HUEOS_$(date +%Y%m)"
+iso_publisher="HueStudios <http://www.github.com/HueStudios>"
+iso_application="Huestudios Live/Install CD"
 iso_version=$(date +%Y.%m.%d)
-install_dir=arch
+install_dir=hue
 work_dir=work
 out_dir=out
 gpg_key=
