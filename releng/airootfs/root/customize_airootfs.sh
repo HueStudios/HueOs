@@ -26,4 +26,11 @@ systemctl set-default multi-user.target
 mkdir /root/.antigen
 curl -L git.io/antigen > /root/.antigen/antigen.zsh
 
+source /root/.antigen/antigen.zsh
+antigen bundle git
+antigen bundle command-not-found
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen theme robbyrussel
+antigen apply
+
 cp -aT /etc/skel-post/ /root/
