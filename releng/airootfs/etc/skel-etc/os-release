@@ -1,0 +1,7 @@
+NAME="HueOs"
+ID=hueos
+PRETTY_NAME="HueOs"
+ANSI_COLOR="1;37"
+HOME_URL="https://github.com/HueStudios/"
+SUPPORT_URL="https://github.com/HueStudios/"
+BUG_REPORT_URL="https://github.com/HueStudios/"
