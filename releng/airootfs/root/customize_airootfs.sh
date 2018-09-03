@@ -23,7 +23,7 @@ sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
 systemctl enable pacman-init.service choose-mirror.service
 systemctl set-default multi-user.target
 
-mkdir .antigen
-curl -L git.io/antigen > .antigen/antigen.zsh
+mkdir /root/.antigen
+curl -L git.io/antigen > /root/.antigen/antigen.zsh
 
 cp -aT /etc/skel-post/ /root/
