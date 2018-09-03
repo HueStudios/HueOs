@@ -24,4 +24,4 @@ systemctl set-default multi-user.target
 
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
-python init_script.py
+cp -aT /etc/skel/post/ /root/
