@@ -28,5 +28,4 @@ curl -L git.io/antigen > /root/.antigen/antigen.zsh
 
 cp -aT /etc/skel-post/ /root/
 
-
 zsh -c "source /root/.antigen/antigen.zsh; antigen bundle git; antigen bundle command-not-found; antigen bundle zsh-users/zsh-syntax-highlighting; antigen theme robbyrussel; antigen apply"
