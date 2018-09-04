@@ -27,4 +27,5 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen theme yarisgutierrez/classyTouch_oh-my-zsh
 antigen apply
 
-echo "Welcome to HueOs!"
+echo "Welcome to the HueOs live ISO!"
+echo "To begin install HueOs, please type 'python installer.py'"
