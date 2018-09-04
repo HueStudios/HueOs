@@ -2,7 +2,7 @@
 
 set -e -u
 
-iso_name=hueos
+iso_name=HueOs
 iso_label="HUEOS_$(date +%Y%m)"
 iso_publisher="HueStudios <http://www.github.com/HueStudios>"
 iso_application="Huestudios Live/Install CD"
