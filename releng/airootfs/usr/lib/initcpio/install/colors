@@ -1,0 +1,11 @@
+#!/bin/bash
+
+build() {
+    add_runscript
+}
+
+help() {
+    cat <<HELPEOF
+This hook will setup the console colors in early user space
+HELPEOF
+}
